@@ -12,7 +12,7 @@
     <logger name="org.kie" level="debug"/>
     <logger name="org.jboss.weld" level="debug"/>
 
-    <root level="debug"><!-- TODO We probably want to set default level to warn instead -->
+    <root level="info"><!-- TODO We probably want to set default level to warn instead -->
         <appender-ref ref="consoleAppender"/>
     </root>
 
