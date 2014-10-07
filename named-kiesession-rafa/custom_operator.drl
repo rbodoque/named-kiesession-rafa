@@ -8,6 +8,7 @@ rule twoFieldsOnOneFact
 		CustomersHolder( customer1 instanceEquals[] customer2 )
 	then 
 		//System.out.println(drools.getRule().getName());
+		System.out.println(drools.getRule().getName());
 end
 
 rule twoFieldsOnOneFactNot
