@@ -4,10 +4,10 @@ import droolsbook.bank.model.*
 import droolsbook.evaluator.test.CustomersHolder
 
 rule twoFieldsOnOneFact
-	when
+	when  
 		CustomersHolder( customer1 instanceEquals[] customer2 )
 	then 
-		//System.out.println(drools.getRule().getName());
+		System.out.println(drools.getRule().getName());
 		System.out.println(drools.getRule().getName());
 end
 
